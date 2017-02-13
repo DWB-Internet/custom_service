@@ -1,0 +1,7 @@
+custom_service.demo:
+  path: '/custom_service-demo'
+  defaults:
+    _controller: 'Drupal\custom_service\Controller\CustomserviceController::demo'
+    _title: 'My custom service demo'
+  requirements:
+    _permission: 'access content'
